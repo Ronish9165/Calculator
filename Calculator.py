@@ -5,9 +5,9 @@ root = Tk()
 
 # Defining the title of the project
 root.title("Simple Calculator")
-root.resizable(0, 0,)
-e = Entry(root, width=35, font=("Times New roman", 18), bg="skyblue", borderwidth=10)
-e.grid(row=0, column=0, columnspan=5, padx=10, pady=10)
+root.resizable(0,0,)
+e = Entry(root, width=35, font=("Times New roman", 18), bg="skyblue", borderwidth=20)
+e.grid(row=0, column=0, columnspan=10, padx=10, pady=10)
 
 
 def button_click(number):
@@ -74,21 +74,21 @@ def button_divide():
 
 
 # Defining the buttons
-button_1 = Button(root, text="1", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(1))
-button_2 = Button(root, text="2", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(2))
-button_3 = Button(root, text="3", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(3))
-button_4 = Button(root, text="4", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(4))
-button_5 = Button(root, text="5", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(5))
-button_6 = Button(root, text="6", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(6))
-button_7 = Button(root, text="7", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(7))
-button_8 = Button(root, text="8", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(8))
-button_9 = Button(root, text="9", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(9))
-button_0 = Button(root, text="0", font=("Times New Roman", 20, ""), padx=40, pady=20, command=lambda: button_click(0))
-button_add = Button(root, text="+", font=("Times New Roman", 20, ""), padx=39, pady=20, command=button_add)
-button_subtract = Button(root, text="-", font=("Times New Roman", 20, ""), padx=39, pady=20, command=button_subract)
-button_multiply = Button(root, text="×", font=("Times New Roman", 20, ""), padx=39, pady=20, command=button_multiply)
-button_divide = Button(root, text="÷", font=("Times New Roman", 20, ""), padx=39, pady=20, command=button_divide)
-button_equal = Button(root, bg="skyblue", font=("Times New Roman", 20, ""), text="=", padx=39, pady=20,
+button_1 = Button(root, text="1", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(1))
+button_2 = Button(root, text="2", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(2))
+button_3 = Button(root, text="3", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(3))
+button_4 = Button(root, text="4", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(4))
+button_5 = Button(root, text="5", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(5))
+button_6 = Button(root, text="6", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(6))
+button_7 = Button(root, text="7", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(7))
+button_8 = Button(root, text="8", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(8))
+button_9 = Button(root, text="9", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(9))
+button_0 = Button(root, text="0", font=("Times New Roman", 20,), padx=40, pady=20, command=lambda: button_click(0))
+button_add = Button(root, text="+", font=("Times New Roman", 20,), padx=39, pady=20, command=button_add)
+button_subtract = Button(root, text="-", font=("Times New Roman", 20,), padx=40, pady=20, command=button_subract)
+button_multiply = Button(root, text="×", font=("Times New Roman", 20,), padx=39, pady=20, command=button_multiply)
+button_divide = Button(root, text="÷", font=("Times New Roman", 20,), padx=39, pady=20, command=button_divide)
+button_equal = Button(root, bg="skyblue", font=("Times New Roman", 20,), text="=", padx=39, pady=20,
                       command=button_equal)
 button_clear = Button(root, text="Clear", bg="red", font=("Times New Roman", 20, ""), padx=20, pady=20,
                       command=button_clear)
