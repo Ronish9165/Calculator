@@ -3,10 +3,10 @@ from tkinter import *
 
 root = Tk()
 
-# Defining the title of the project
-root.title("Simple Calculator")
+# Defining the title of the project*
+root.title("Simple Ca lculator")
 root.resizable(0,0,)
-e = Entry(root, width=35, font=("Times New roman", 18), bg="skyblue", borderwidth=20)
+e = Entry(root, width=35, font=("Times New roman", 18) , bg="skyblue", borderwidth=20)
 e.grid(row=0, column=0, columnspan=10, padx=10, pady=10)
 
 
@@ -88,7 +88,7 @@ button_add = Button(root, text="+", font=("Times New Roman", 20,), padx=39, pady
 button_subtract = Button(root, text="-", font=("Times New Roman", 20,), padx=40, pady=20, command=button_subract)
 button_multiply = Button(root, text="×", font=("Times New Roman", 20,), padx=39, pady=20, command=button_multiply)
 button_divide = Button(root, text="÷", font=("Times New Roman", 20,), padx=39, pady=20, command=button_divide)
-button_equal = Button(root, bg="skyblue", font=("Times New Roman", 20,), text="=", padx=39, pady=20,
+button_equal = Button(root, bg="skyblue  ", font=("Times New Roman", 20,), text="=", padx=39, pady=20,
                       command=button_equal)
 button_clear = Button(root, text="Clear", bg="red", font=("Times New Roman", 20, ""), padx=20, pady=20,
                       command=button_clear)
