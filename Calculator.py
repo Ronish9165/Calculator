@@ -6,6 +6,7 @@ root = Tk()
 # Defining the title of the project*
 root.title("Simple Calculator")
 root.resizable(0,0,)
+root.iconbitmap("image.ico")
 e = Entry(root, width=35 , font=("Times New roman", 18) , bg="skyblue" ,   borderwidth=20)
 e.grid(row=0, column=0, columnspan=10, padx=10, pady=10)
 
