@@ -6,7 +6,7 @@ e1.pack()
 def myClick():
     textoutput = 'Hello,' + e1.get()
 
-    myLabel = Label(root, text = textoutput)
+    myLabel = Label(root,fg= "red", text = textoutput)
 
     myLabel.pack()
 

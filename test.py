@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 root = Tk()
 
 #title
-root.ttle("Image Insertion")
+root.title("Image Insertion")
 
 #icon images
 # png icons does not support sometimes
